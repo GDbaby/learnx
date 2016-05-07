@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	1. pc网站 2. 游戏 3. app,web 混合APP 4. 穿戴设备 5， 企业级应用UI界面 6. 室外展示。。。。。。。。
+
+	angular.js+ionic 单页应用 single page APP    react.js YO框架+feikit+
+	围住神经猫？？？？？？？？？？？
+
+	//2.a) 响应式； b)百分比 c)弹性盒子  d)分栏
+
+	<!-- H5新增的功能性标签，画布 -->
+	<canvas width="600px" height="400px" id="myCan">
+		你的浏览器不支持canvas
+	</canvas>
+</body>
+<script>
+	var myCan = document.getElementById("myCan");
+	var mycon = myCan.getContext("2d"); //将画布声明成2D课供JS操作的画布
+	 	mycon.beginPath(); // 开始画的线条的路径
+	 	mycon.fillStyle = "red";  // 填充样式
+	 	mycon.arc(100,100,50,0,Math.PI*2,true);  //arc(x,y,r,ab,ae,true)画圆
+	 	// mycon.lineTo()
+	 	mycon.fill();
+	 	mycon.closePath(); //闭合路径
+</script>
+</html>
